@@ -1,13 +1,12 @@
 import React from 'react';
 
 class Home extends React.PureComponent {
-  constructor(){
+  constructor() {
     super();
   }
 
-  render(){
-    
-    return(
+  render() {
+    return (
       <section>
         <h1>Hello World!</h1>
       </section>

@@ -1,3 +1,4 @@
-body {
-  color: red;
-}
+@import './reset';
+@import './variables';
+@import './components/atoms';
+@import './components/Sidebar';
