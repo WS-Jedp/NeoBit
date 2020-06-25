@@ -1,0 +1,38 @@
+.sidebar {
+  background-color: $primary-black;
+  height: 100vh;
+  width: 300px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: $primary-font;
+  & img {
+    padding: 5px;
+  }
+  & nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  & ul {
+    width: 100%;
+  }
+  & li {
+    display: flex;
+  }
+  & a {
+    padding: 10px 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: $primary-white;
+    font-weight: bold;
+  }
+}
+
+.selected {
+  border-left: 2px solid $primary-white;
+  background-color: rgba($color: $primary-white, $alpha: 0.1);
+}
