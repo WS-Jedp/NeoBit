@@ -1,12 +1,12 @@
 .sidebar {
-  background-color: $primary-black;
+  background-color: $color-primary-black;
   height: 100vh;
   width: 300px;
   float: left;
   display: flex;
   flex-direction: column;
   align-content: center;
-  font-family: $primary-font;
+  font-family: $font-primary;
   & img {
     padding: 5px;
   }
@@ -27,12 +27,12 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: $primary-white;
+    color: $color-primary-white;
     font-weight: bold;
   }
 }
 
 .selected {
-  border-left: 2px solid $primary-white;
-  background-color: rgba($color: $primary-white, $alpha: 0.1);
+  border-left: 2px solid $color-primary-white;
+  background-color: rgba($color: $color-primary-white, $alpha: 0.1);
 }
