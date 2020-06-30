@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+.designSystem{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  &--content{
+    padding: $space-elements-big;
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+
+    & hr{
+      margin: $space-elements-small 0;
+    }
+  }
+}

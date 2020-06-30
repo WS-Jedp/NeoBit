@@ -1,0 +1,54 @@
+.button {
+  font-family: $font-primary;
+  min-width: 270px;
+  max-width: 270px;
+  text-align: center;
+  padding: $space-elements-small;
+  border: $color-primary-white 1px solid;
+  background-color: $color-primary-black;
+  color: $color-primary-white;
+  font-size: $font-size-p;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &-primaryBlack{
+    border: $color-primary-white 1px solid;
+    background-color: $color-primary-black;
+    color: $color-primary-white;
+
+    &:hover{
+      box-shadow: 0 0 12px rgba(255,255,255,0.6);
+    }
+  }
+
+  // -------Secondary Button -------
+  &-primaryWhite{
+    background-color: $color-primary-white;
+    border: none;
+    color: $color-primary-black;
+
+    &:hover{
+      box-shadow: 0 0 12px rgba(12,12,12,0.3);
+    }
+  }
+
+  &-secondaryGray{
+    background-color: $color-secondary-gray;
+    border: none;
+    color: $color-primary-black;
+
+    &:hover{
+      box-shadow: 0 0 12px rgba(12,12,12,0.3);
+    }
+  }
+
+  &-secondaryBlue{
+    background-color: $color-secondary-blue;
+    border: none;
+    color: $color-primary-white;
+
+    &:hover{
+      box-shadow: 0 0 12px rgba(12,12,12,0.3);
+    }
+  }
+}

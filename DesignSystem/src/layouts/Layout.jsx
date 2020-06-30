@@ -1,11 +1,16 @@
 import React from 'react';
-import SideBar from '../components/SideBar';
+import SideBar from '../components/Molecules/SideBar';
+
+// Styles
+import '../styles/Layouts/LayoutsDS.scss';
 
 const Layout = ({ children }) => {
   return (
-    <div className="App">
+    <div className="designSystem">
       <SideBar />
-      {children}
+      <section className="designSystem--content">
+        {children}
+      </section>
     </div>
   );
 };

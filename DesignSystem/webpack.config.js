@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.js'
   },
+  devServer: {
+    historyApiFallback: true,
+  },
   resolve: {
     extensions: ['.jsx', '.js', '.sass', '.scss'],
   },
@@ -58,7 +61,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              publicPath: '/assets/images',
+              publicPath: 'assets/images',
               outputPath: 'assets/images'
             }
           }

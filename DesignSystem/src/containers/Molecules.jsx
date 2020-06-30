@@ -1,11 +1,23 @@
 import React from 'react';
 
-const Atoms = () => {
+// Componenets
+import Button from '../components/Atoms/Button';
+
+const Molecules = () => {
   return (
-    <div>
-      Molecules
-    </div>
+    <article className="systemContent">
+      <div className="systemContent--information">
+        <h1>
+          Moleculas
+        </h1>
+        <hr/>
+        <p>
+          Las moleculas nos ayudaran a mantener una interacción activa con nuestros usuarios, son fundamentales para poder tener un sistema de diseño sostenible. 
+        </p>
+      </div>
+
+    </article>
   );
 };
 
-export default Atoms;
+export default Molecules;

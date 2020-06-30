@@ -1,0 +1,30 @@
+
+.systemContent {
+
+  &--information{
+    margin-bottom: $space-section-medium;
+  }
+
+  &--section {
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    height: auto;
+    padding: $space-elements-big;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    margin-bottom: $space-section-medium;
+
+    &--components{
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      height: auto;
+      padding: $space-elements-big 0;
+
+      & * {
+        margin-right: $space-elements-big;
+      }
+    }
+  }
+}
