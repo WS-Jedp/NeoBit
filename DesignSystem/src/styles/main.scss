@@ -1,4 +1,10 @@
 @import './reset';
 @import './variables';
+
+// Components
 @import './components/atoms';
 @import './components/Sidebar';
+@import './components/Buttons.scss';
+
+// Containers
+@import './Containers/AtomsStyles.scss'

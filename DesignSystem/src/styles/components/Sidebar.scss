@@ -1,7 +1,8 @@
 .sidebar {
   background-color: $color-primary-black;
   height: 100vh;
-  width: 300px;
+  min-width: 300px;
+  width: 20vw;
   float: left;
   display: flex;
   flex-direction: column;

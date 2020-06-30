@@ -1,0 +1,67 @@
+@import '../variables.scss';
+
+// Headings, sizes and weights
+.special-title {
+  font-family: $font-secondary;
+  font-size: $font-size-special;
+  font-weight: $font-weight-bold;
+}
+
+h1 {
+  font-family: $font-secondary;
+  font-size: $font-size-h1;
+  font-weight: $font-weight-regular;
+}
+
+h2 {
+  font-family: $font-secondary;
+  font-size: $font-size-h2;
+  font-weight: $font-weight-regular;
+}
+
+h3 {
+  font-family: $font-secondary;
+  font-size: $font-size-h3;
+  font-weight: $font-weight-bold;
+}
+
+h4 {
+  font-family: $font-secondary;
+  font-size: $font-size-h4;
+  font-weight: $font-weight-regular;
+}
+
+h5 {
+  font-family: $font-secondary;
+  font-size: $font-size-h5;
+  font-weight: $font-weight-bold;
+}
+
+p,q,a {
+  font-family: $font-primary;
+  font-size: $font-size-p;
+  font-weight: $font-weight-regular;
+  line-height: 24px;
+}
+
+strong {
+  font-family: $font-secondary;
+  font-size: $font-size-strong;
+  font-weight: $font-weight-bold;
+}
+
+small {
+  font-family: $font-secondary;
+  font-size: $font-size-small;
+  font-weight: $font-weight-bold;
+}
+
+hr {
+  position: relative;
+  width: 90%;
+  height: 3px;
+  background-color: $color-primary-black;
+  margin: 0;
+  padding: 0;
+}
+
