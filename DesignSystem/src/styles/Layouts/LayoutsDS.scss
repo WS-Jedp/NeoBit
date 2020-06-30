@@ -3,13 +3,13 @@
 .designSystem{
   position: relative;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 
-  &__content{
+  &--content{
     padding: $space-elements-big;
     width: 80%;
     height: 100vh;

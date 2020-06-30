@@ -1,23 +1,30 @@
-button {
+.button {
   font-family: $font-primary;
-  min-width: 150px;
+  min-width: 270px;
+  max-width: 270px;
   text-align: center;
-  border: $color-primary-white 1px solid;
   padding: $space-elements-small;
-  font-size: $font-size-p;
+  border: $color-primary-white 1px solid;
   background-color: $color-primary-black;
   color: $color-primary-white;
+  font-size: $font-size-p;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 
-  &:hover{
-    box-shadow: 0 0 12px rgba(255,255,255,0.6);
+  &-primary-black{
+    border: $color-primary-white 1px solid;
+    background-color: $color-primary-black;
+    color: $color-primary-white;
+
+    &:hover{
+      box-shadow: 0 0 12px rgba(255,255,255,0.6);
+    }
   }
 
   // -------Secondary Button -------
-  &.secondary{
+  &-primary-white{
     background-color: $color-primary-white;
-    border: $color-primary-black 1px solid;
+    border: none;
     color: $color-primary-black;
 
     &:hover{
@@ -25,9 +32,9 @@ button {
     }
   }
 
-  &.gray{
+  &-secondary-gray{
     background-color: $color-secondary-gray;
-    border: $color-primary-black 1px solid;
+    border: none;
     color: $color-primary-black;
 
     &:hover{
@@ -35,9 +42,9 @@ button {
     }
   }
 
-  &.blue{
+  &-secondary-blue{
     background-color: $color-secondary-blue;
-    border: $color-primary-black 1px solid;
+    border: none;
     color: $color-primary-white;
 
     &:hover{
