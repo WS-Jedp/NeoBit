@@ -18,12 +18,11 @@
     &--components{
       position: relative;
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: column wrap;
       height: auto;
       padding: $space-elements-big 0;
-
-      & * {
-        margin-right: $space-elements-big;
+      & div {
+        margin-bottom: $space-elements-big;
       }
     }
   }
