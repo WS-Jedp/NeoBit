@@ -29,10 +29,10 @@ const Atoms = () => {
         <p>Los botones son una parte fundamental de nuestro sistema de diseño, son los elementos que le indicaran al usuario que puede hacer y cuando lo puede hacer.</p>
 
         <div className="systemContent--section--components">
-          <button className="button button-primary-black">Tittle Here!</button>
-          <button className="button button-primary-white">Tittle Here!</button>
-          <button className="button button-secondary-gray">Tittle Here!</button>
-          <button className="button button-secondary-blue">Tittle Here!</button>
+          <button className="button button-primaryBlack">Tittle Here!</button>
+          <button className="button button-primaryWhite">Tittle Here!</button>
+          <button className="button button-secondaryGray">Tittle Here!</button>
+          <button className="button button-secondaryBlue">Tittle Here!</button>
         </div>
       </section>
     </article>
