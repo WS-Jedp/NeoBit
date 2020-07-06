@@ -21,8 +21,14 @@
       flex-flow: column wrap;
       height: auto;
       padding: $space-elements-big 0;
+      & h5, p, button {
+        margin-bottom: $space-elements-small;
+      }
       & div {
         margin-bottom: $space-elements-big;
+        padding: $space-elements-small;
+        background-color: $color-secondary-gray;
+        border-radius: 10px;
       }
     }
   }

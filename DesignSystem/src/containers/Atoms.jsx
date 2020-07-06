@@ -47,7 +47,9 @@ const Atoms = () => {
           {components.buttons.map((button, index) => (
             <div key={index}>
               <h5>{button.name}</h5>
+              <p>Componente</p>
               <button className={button.className}>Type me</button>
+              <p>Código</p>
               <SyntaxHighlighter language="htmlbars" style={dark}>
                 {button.code}
               </SyntaxHighlighter>
