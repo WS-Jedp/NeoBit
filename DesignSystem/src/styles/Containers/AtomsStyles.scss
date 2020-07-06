@@ -18,13 +18,42 @@
     &--components{
       position: relative;
       display: flex;
-      flex-flow: row wrap;
+      align-items: center;
+      flex-flow: row wrap-reverse;
       height: auto;
       padding: $space-elements-big 0;
 
       & * {
         margin-right: $space-elements-big;
       }
+
+      & div {
+        width: 60%;
+        padding: $space-elements-small;
+        border-left: 2px $color-primary-black solid;
+      }
     }
   }
+}
+
+@media screen and (max-width: 1192px){
+  
+.systemContent {
+
+
+
+  &--section {
+
+    &--components{
+
+      & div {
+        width: 90%;
+        padding: $space-elements-small;
+        border-left: none;
+        border-top: 2px $color-primary-black solid;
+      }
+    }
+  }
+}
+
 }

@@ -1,4 +1,7 @@
 import React from 'react';
+import components from './components';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { twilight } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const Atoms = () => {
   return (
@@ -29,10 +32,35 @@ const Atoms = () => {
         <p>Los botones son una parte fundamental de nuestro sistema de diseño, son los elementos que le indicaran al usuario que puede hacer y cuando lo puede hacer.</p>
 
         <div className="systemContent--section--components">
-          <button className="button button-primary-black">Tittle Here!</button>
-          <button className="button button-primary-white">Tittle Here!</button>
-          <button className="button button-secondary-gray">Tittle Here!</button>
-          <button className="button button-secondary-blue">Tittle Here!</button>
+          <button className="button button-primaryBlack">Tittle Here!</button>
+          <div>
+            <h5>Botón primario</h5>
+            <p>
+              El boton primario es aquel que se debe utilizar cada vez que queramos llamar la atencion de nuestro usuario con la mayor importancia. 
+            </p>
+
+            <code>
+              <SyntaxHighlighter language="htmlbars" style={twilight}>
+                  {components['buttons'][1].code}
+              </SyntaxHighlighter>
+            </code>
+          </div>
+        </div>
+
+        <div className="systemContent--section--components">
+          <button className="button button-secondaryBlue">Tittle Here!</button>
+          <div>
+            <h5>Botón secundario Azul</h5>
+            <p>
+              El boton secundario es aquel que se debe utilizar cada vez que queramos llamar la atencion de nuestro usuario cuando hay un brackground positivo.
+            </p>
+
+            <code>
+              <SyntaxHighlighter language="htmlbars" style={twilight}>
+                  {components['buttons'][2].code}
+              </SyntaxHighlighter>
+            </code>
+          </div>
         </div>
       </section>
     </article>
