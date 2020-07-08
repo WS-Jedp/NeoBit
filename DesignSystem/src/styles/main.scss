@@ -1,10 +1,14 @@
 @import './reset';
 @import './variables';
 
+// Animations
+@import './Animations/animations.scss';
+
 // Components
 @import './components/atoms';
 @import './components/Sidebar';
 @import './components/Buttons.scss';
+@import './Components//logoLoading.scss';
 
 // Containers
 @import './Containers/AtomsStyles.scss'

@@ -58,4 +58,14 @@ $space-section-small: 39px; // Are used when it's finished the article or paragr
 // ---------- Spacing ----------
 // ---------- Spacing ----------
 
+
+// ---------- Hovers ----------
+// ---------- Hovers ----------
+
 $hover-effect: 0 0 24px rgba($color: #ffffff,$alpha: 1);
+
+
+// ---------- Shadows ----------
+// ---------- Shadows ----------
+$shadow-normal-white: 0 0 24px rgba($color: $color-primary-white, $alpha: .6);
+$shadow-small-white: 0 0 12px rgba($color: $color-primary-white, $alpha: .6);

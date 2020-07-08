@@ -3,6 +3,9 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import components from './components';
 
+// LogoLoading
+import LogoLoading from '../Components/Atoms/LogoLoading';
+
 const Atoms = () => {
   return (
     <article className="systemContent">
@@ -45,7 +48,7 @@ const Atoms = () => {
 
         <div className="systemContent--section--components">
           {components.buttons.map((button, index) => (
-            <div key={index}>
+            <div key={index} className="container-component">
               <h5>{button.name}</h5>
               <p>Componente</p>
               <button className={button.className}>Type me</button>
@@ -55,6 +58,18 @@ const Atoms = () => {
               </SyntaxHighlighter>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="systemContent--section">
+        <h4>Logo Loading</h4>
+        <hr />
+        <p>
+          El loading es el componente que nos ayudará a darle una respuesta al usuario cuando alguna acción se esté realizando y esta se demora en completar.
+        </p>
+
+        <div className="systemContent--section--components">
+         <LogoLoading />
         </div>
       </section>
     </article>
