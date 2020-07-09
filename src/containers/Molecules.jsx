@@ -1,14 +1,10 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import Menu from '../components/molecules/Menu';
 
 // Componenets
-<<<<<<< HEAD
-=======
 import Loading from '../components/molecules/Loading';
-
->>>>>>> develop
+import Menu from '../components/molecules/Menu';
 
 const Molecules = () => {
   return (
@@ -23,7 +19,6 @@ const Molecules = () => {
         </p>
       </div>
 
-<<<<<<< HEAD
       <section className="systemContent--section">
         <h4>Menu</h4>
         <hr />
@@ -32,7 +27,7 @@ const Molecules = () => {
         </p>
 
         <div className="systemContent--section--components">
-          <div>
+          <div className="container-component">
             <h5>Menu normal</h5>
             <p>Componente</p>
             <Menu />
@@ -41,7 +36,7 @@ const Molecules = () => {
               {`<Menu />`}
             </SyntaxHighlighter>
           </div>
-          <div>
+          <div className="container-component">
             <h5>Menu dark</h5>
             <p>Componente</p>
             <Menu dark />
@@ -53,8 +48,7 @@ const Molecules = () => {
         </div>
       </section>
 
-=======
-    <section className="systemContent--section">
+      <section className="systemContent--section">
         <h4>Loading</h4>
         <hr />
         <p>
@@ -62,10 +56,17 @@ const Molecules = () => {
         </p>
 
         <div className="systemContent--section--components">
-         <Loading />
+          <div className="container-component">
+            <h5>Loading</h5>
+            <p>Componente</p>
+            <Loading />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Loading />`}
+            </SyntaxHighlighter>
+          </div>
         </div>
       </section>
->>>>>>> develop
     </article>
   );
 };
