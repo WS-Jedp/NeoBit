@@ -1,0 +1,16 @@
+.loading{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  color: $color-primary-white;
+  background-color: $color-primary-black;
+
+  h3{
+    position: relative;
+    top: -$space-elements-big;
+  }
+}

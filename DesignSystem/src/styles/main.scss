@@ -4,11 +4,14 @@
 // Animations
 @import './animations/Animations.scss';
 
+
 // Components
 @import './components/atoms';
 @import './components/Sidebar';
 @import './components/Buttons.scss';
 @import './components/logoLoading.scss';
+@import './components/Loading.scss';
+
 
 // Containers
 @import './containers/AtomsStyles.scss'
