@@ -6,6 +6,8 @@
 // Atoms
 @import './components/atoms/Atoms.scss';
 @import './components/atoms/Buttons.scss';
+@import './components/logoLoading.scss';
+@import './components/Loading.scss';
 
 // Molecules
 @import './components/molecules/Sidebar.scss';
@@ -16,3 +18,7 @@
 
 // Containers
 @import './containers/AtomsStyles.scss';
+
+// Animations
+@import './animations/Animations.scss';
+

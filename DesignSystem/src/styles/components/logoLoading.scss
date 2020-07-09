@@ -1,0 +1,41 @@
+.logoLoading{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid $color-primary-black;
+  background-color: $color-primary-black;
+
+  &-planet{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: 9px solid $color-primary-white;
+    background-color: transparent;
+    box-shadow: $shadow-small-white;
+  }
+
+  &-orbit{
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    animation: rotate360 linear infinite .9s;
+
+    &-satelite{
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: $color-primary-white;
+      box-shadow: $shadow-normal-white;
+    }
+  }
+}

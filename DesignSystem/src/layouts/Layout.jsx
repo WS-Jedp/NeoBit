@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Components
 import SideBar from '../components/molecules/SideBar';
 
 const Layout = ({ children }) => {

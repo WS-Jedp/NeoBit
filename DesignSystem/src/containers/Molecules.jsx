@@ -4,6 +4,11 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Menu from '../components/molecules/Menu';
 
 // Componenets
+<<<<<<< HEAD
+=======
+import Loading from '../components/molecules/Loading';
+
+>>>>>>> develop
 
 const Molecules = () => {
   return (
@@ -18,6 +23,7 @@ const Molecules = () => {
         </p>
       </div>
 
+<<<<<<< HEAD
       <section className="systemContent--section">
         <h4>Menu</h4>
         <hr />
@@ -47,6 +53,19 @@ const Molecules = () => {
         </div>
       </section>
 
+=======
+    <section className="systemContent--section">
+        <h4>Loading</h4>
+        <hr />
+        <p>
+          El loading se usara cada vez que haya que avisar que el proceso realizado puede ser demorado.
+        </p>
+
+        <div className="systemContent--section--components">
+         <Loading />
+        </div>
+      </section>
+>>>>>>> develop
     </article>
   );
 };
