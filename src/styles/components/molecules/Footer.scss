@@ -9,7 +9,7 @@
   .social {
     font-size: $font-size-p;
     & svg {
-      margin-right: 8px;
+      margin-right: $space-elements-small;
     }
     & svg:last-child {
       margin-right: 0;

@@ -70,15 +70,15 @@ const Molecules = () => {
       </section>
 
       <section className="systemContent--section">
-        <h4>Loading</h4>
+        <h4>Footer</h4>
         <hr />
         <p>
-          El loading se usara cada vez que haya que avisar que el proceso realizado puede ser demorado.
+          Está sección del sitio es el conocido footer que nos dará acceso a las redes sociales. 
         </p>
 
         <div className="systemContent--section--components">
           <div className="container-component">
-            <h5>Loading</h5>
+            <h5>Footer</h5>
             <p>Componente</p>
             <Footer />
             <p>Código</p>
