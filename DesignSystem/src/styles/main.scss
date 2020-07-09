@@ -2,7 +2,8 @@
 @import './variables';
 
 // Animations
-@import './animations/animations.scss';
+@import './animations/Animations.scss';
+
 
 // Components
 @import './components/atoms';
@@ -10,6 +11,7 @@
 @import './components/Buttons.scss';
 @import './components/logoLoading.scss';
 @import './components/Loading.scss';
+
 
 // Containers
 @import './containers/AtomsStyles.scss'
