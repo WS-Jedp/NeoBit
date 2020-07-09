@@ -1,0 +1,11 @@
+.labelCard{
+  display: inline;
+
+  &-title{
+    color: $color-primary-white;
+  }
+
+  &-description{
+    color: $color-primary-white;
+  }
+} 
