@@ -3,7 +3,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import components from './components';
 
-// LogoLoading
+// Components
 import LogoLoading from '../components/atoms/LogoLoading';
 
 const Atoms = () => {
@@ -29,11 +29,33 @@ const Atoms = () => {
         </p>
 
         <div className="systemContent--section--components">
-          <h1>Title H1</h1>
-          <h2>Title H2</h2>
-          <h3>Title H3</h3>
-          <h4>Title H4</h4>
-          <h5>Title H5</h5>
+          <div className="container-component">
+            <h1>Title</h1>
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<h1>Title<h1/>`}
+            </SyntaxHighlighter>
+            <h2>Title</h2>
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<h2>Title</h2>`}
+            </SyntaxHighlighter>
+            <h3>Title</h3>
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<h3>Title</h3>`}
+            </SyntaxHighlighter>
+            <h4>Title</h4>
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<h4>Title</h4>`}
+            </SyntaxHighlighter>
+            <h5>Title</h5>
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<h5>Title<h5/>`}
+            </SyntaxHighlighter>
+          </div>
         </div>
       </section>
 
@@ -69,7 +91,14 @@ const Atoms = () => {
         </p>
 
         <div className="systemContent--section--components">
-         <LogoLoading />
+          <div className="container-component">
+            <p>Componente</p>
+            <LogoLoading />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<LogoLoading />`}
+            </SyntaxHighlighter>
+          </div>
         </div>
       </section>
     </article>

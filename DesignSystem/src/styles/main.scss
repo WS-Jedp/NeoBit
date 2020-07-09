@@ -6,11 +6,11 @@
 // Atoms
 @import './components/atoms/Atoms.scss';
 @import './components/atoms/Buttons.scss';
-@import './components/logoLoading.scss';
-@import './components/Loading.scss';
+@import './components/atoms/LogoLoading.scss';
 
 // Molecules
 @import './components/molecules/Sidebar.scss';
+@import './components/molecules/Loading.scss';
 @import './components/molecules/Menu.scss';
 
 // Layouts
