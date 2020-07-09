@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Componenets
-import Button from '../components/Atoms/Button';
+import Button from '../components/atoms/Button';
 
 const Molecules = () => {
   return (
