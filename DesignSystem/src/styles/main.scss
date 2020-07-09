@@ -3,6 +3,9 @@
 
 // Components
 
+// Utils
+@import './utils/Utils.scss';
+
 // Atoms
 @import './components/atoms/Atoms.scss';
 @import './components/atoms/Buttons.scss';
@@ -12,6 +15,7 @@
 // Molecules
 @import './components/molecules/Sidebar.scss';
 @import './components/molecules/Menu.scss';
+@import './components/molecules/LabelCard.scss';
 
 // Layouts
 @import '../styles/layouts/LayoutsDS.scss';

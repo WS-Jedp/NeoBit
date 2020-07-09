@@ -4,11 +4,9 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Menu from '../components/molecules/Menu';
 
 // Componenets
-<<<<<<< HEAD
-=======
 import Loading from '../components/molecules/Loading';
+import LabelCard from '../components/molecules/LabelCard';
 
->>>>>>> develop
 
 const Molecules = () => {
   return (
@@ -23,7 +21,6 @@ const Molecules = () => {
         </p>
       </div>
 
-<<<<<<< HEAD
       <section className="systemContent--section">
         <h4>Menu</h4>
         <hr />
@@ -53,7 +50,6 @@ const Molecules = () => {
         </div>
       </section>
 
-=======
     <section className="systemContent--section">
         <h4>Loading</h4>
         <hr />
@@ -64,8 +60,26 @@ const Molecules = () => {
         <div className="systemContent--section--components">
          <Loading />
         </div>
+        <p>Código</p>
+        <SyntaxHighlighter language="htmlbars" style={dark}>
+          {`<Loading />`}
+        </SyntaxHighlighter>
       </section>
->>>>>>> develop
+
+      <section className="systemContent--section">
+        <h4>Label Card</h4>
+        <hr />
+        <p>
+          Los labels son normalmente para dar el detalle de una característica de un elemento.
+        </p>
+        <div className="bg-primary-color systemContent--section--components">
+          <LabelCard />
+        </div>
+        <p>Código</p>
+        <SyntaxHighlighter language="htmlbars" style={dark}>
+          {`<LabelCard title={ title } description={ value }/>`}
+        </SyntaxHighlighter>
+      </section>
     </article>
   );
 };
