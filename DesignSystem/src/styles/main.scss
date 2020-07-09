@@ -2,13 +2,13 @@
 @import './variables';
 
 // Animations
-@import './Animations/Animations.scss';
+@import './animations/Animations.scss';
 
 // Components
 @import './components/atoms';
 @import './components/Sidebar';
 @import './components/Buttons.scss';
-@import './Components/logoLoading.scss';
+@import './components/logoLoading.scss';
 
 // Containers
-@import './Containers/AtomsStyles.scss'
+@import './containers/AtomsStyles.scss'
