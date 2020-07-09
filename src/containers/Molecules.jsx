@@ -5,6 +5,7 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 // Componenets
 import Loading from '../components/molecules/Loading';
 import Menu from '../components/molecules/Menu';
+import Footer from '../components/molecules/Footer';
 
 const Molecules = () => {
   return (
@@ -63,6 +64,26 @@ const Molecules = () => {
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<Loading />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+
+      <section className="systemContent--section">
+        <h4>Footer</h4>
+        <hr />
+        <p>
+          Está sección del sitio es el conocido footer que nos dará acceso a las redes sociales. 
+        </p>
+
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <h5>Footer</h5>
+            <p>Componente</p>
+            <Footer />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Footer />`}
             </SyntaxHighlighter>
           </div>
         </div>
