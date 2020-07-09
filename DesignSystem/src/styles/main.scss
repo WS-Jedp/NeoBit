@@ -2,14 +2,14 @@
 @import './variables';
 
 // Animations
-@import './Animations/animations.scss';
+@import './animations/animations.scss';
 
 // Components
 @import './components/atoms';
 @import './components/Sidebar';
 @import './components/Buttons.scss';
-@import './Components//logoLoading.scss';
-@import './Components/Loading.scss';
+@import './components/logoLoading.scss';
+@import './components/Loading.scss';
 
 // Containers
-@import './Containers/AtomsStyles.scss'
+@import './containers/AtomsStyles.scss'

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Componenets
-import Loading from '../Components/Molecules/Loading';
+import Loading from '../components/molecules/Loading';
 
 const Molecules = () => {
   return (

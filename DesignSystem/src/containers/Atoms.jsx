@@ -4,7 +4,7 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import components from './components';
 
 // LogoLoading
-import LogoLoading from '../Components/Atoms/LogoLoading';
+import LogoLoading from '../components/atoms/LogoLoading';
 
 const Atoms = () => {
   return (

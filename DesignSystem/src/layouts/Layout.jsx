@@ -2,7 +2,7 @@ import React from 'react';
 import SideBar from '../components/Molecules/SideBar';
 
 // Styles
-import '../styles/Layouts/LayoutsDS.scss';
+import '../styles/layouts/LayoutsDS.scss';
 
 const Layout = ({ children }) => {
   return (

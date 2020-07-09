@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Atoms
-import LogoLoading from '../Atoms/LogoLoading';
+import LogoLoading from '../atoms/LogoLoading';
 
 const Loading = () => {
   return (
