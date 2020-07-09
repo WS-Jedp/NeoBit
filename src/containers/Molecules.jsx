@@ -83,7 +83,7 @@ const Molecules = () => {
             <Footer />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<Loading />`}
+              {`<Footer />`}
             </SyntaxHighlighter>
           </div>
         </div>
