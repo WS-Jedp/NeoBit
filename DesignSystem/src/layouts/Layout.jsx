@@ -1,8 +1,7 @@
 import React from 'react';
-import SideBar from '../components/Molecules/SideBar';
 
-// Styles
-import '../styles/layouts/LayoutsDS.scss';
+// Components
+import SideBar from '../components/molecules/SideBar';
 
 const Layout = ({ children }) => {
   return (

@@ -1,17 +1,24 @@
 @import './reset';
 @import './variables';
 
-// Animations
-@import './animations/Animations.scss';
-
-
 // Components
-@import './components/atoms';
-@import './components/Sidebar';
-@import './components/Buttons.scss';
+
+// Atoms
+@import './components/atoms/Atoms.scss';
+@import './components/atoms/Buttons.scss';
 @import './components/logoLoading.scss';
 @import './components/Loading.scss';
 
+// Molecules
+@import './components/molecules/Sidebar.scss';
+@import './components/molecules/Menu.scss';
+
+// Layouts
+@import '../styles/layouts/LayoutsDS.scss';
 
 // Containers
-@import './containers/AtomsStyles.scss'
+@import './containers/AtomsStyles.scss';
+
+// Animations
+@import './animations/Animations.scss';
+

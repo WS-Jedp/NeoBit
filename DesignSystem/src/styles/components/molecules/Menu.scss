@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+
+  & li {
+    margin-right: 107px;
+  }
+  & li:last-of-type {
+    margin-right: 0;
+  }
+  & a {
+    font-family: $font-secondary;
+    font-weight: $font-weight-bold;
+    cursor: pointer;
+  }
+  &-dark {
+    color: $color-primary-white;
+  }
+}
