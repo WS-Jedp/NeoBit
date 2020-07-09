@@ -2,9 +2,17 @@
 @import './variables';
 
 // Components
-@import './components/atoms';
-@import './components/Sidebar';
-@import './components/Buttons.scss';
+
+// Atoms
+@import './components/atoms/Atoms.scss';
+@import './components/atoms/Buttons.scss';
+
+// Molecules
+@import './components/molecules/Sidebar.scss';
+@import './components/molecules/Menu.scss';
+
+// Layouts
+@import '../styles/layouts/LayoutsDS.scss';
 
 // Containers
-@import './Containers/AtomsStyles.scss'
+@import './containers/AtomsStyles.scss';
