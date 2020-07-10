@@ -1,0 +1,14 @@
+.labelCard{
+  display: inline-block;
+
+  &-title{
+    display: block;
+    color: $color-primary-white;
+  }
+
+  &-description{
+    font-size: $font-size-strong;
+    font-weight: $font-weight-light;
+    color: $color-primary-white;
+  }
+} 

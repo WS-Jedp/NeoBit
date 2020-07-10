@@ -9,6 +9,7 @@ import Article from '../components/molecules/Article';
 import CurosityFacts from '../components/molecules/CuriosityFacts';
 import CardInfo from '../components/molecules/CardInfo';
 import Footer from '../components/molecules/Footer';
+import LabelCard from '../components/molecules/LabelCard';
 import Hero from '../components/molecules/Hero';
 
 //Manisfest
@@ -97,6 +98,24 @@ const Molecules = () => {
       </section>
 
       <section className="systemContent--section">
+        <h4>Label Card</h4>
+        <hr />
+        <p>
+          Los labels son normalmente para dar el detalle de una característica de un elemento.
+        </p>
+        <div className="systemContent--section--components">
+          <div className="container-component"> 
+            <p>Componente</p>
+             <LabelCard title={'Label'} description={'421.520km'} />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<LabelCard title={ Label } description={ 521.510 km }/>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+      
+      <section className="systemContent--section">
         <h4>Block contents</h4>
         <hr />
         <p>
@@ -133,7 +152,7 @@ const Molecules = () => {
           </div>
         </div>
       </section>
-        
+      
       <section className="systemContent--section">
         <h4>Hero</h4>
         <hr />
