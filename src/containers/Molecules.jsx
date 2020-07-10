@@ -9,6 +9,7 @@ import Article from '../components/molecules/Article';
 import CurosityFacts from '../components/molecules/CuriosityFacts';
 import CardInfo from '../components/molecules/CardInfo';
 import Footer from '../components/molecules/Footer';
+import Hero from '../components/molecules/Hero';
 
 //Manisfest
 import { article, cardInfo, curosityFacts } from '../components/manifests/blockContentManifes.json';
@@ -132,6 +133,23 @@ const Molecules = () => {
           </div>
         </div>
       </section>
+        
+      <section className="systemContent--section">
+        <h4>Hero</h4>
+        <hr />
+        <p>
+          Este elemento va a contar de que va el proyecto al usuario y empezar a interactuar con el sitio.
+        </p>
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <Hero />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Hero />`}
+            </SyntaxHighlighter>
+          </div>
+         </div>
+        </section>
     </article>
   );
 };
