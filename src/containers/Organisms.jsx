@@ -34,12 +34,12 @@ const Atoms = () => {
             </SyntaxHighlighter>
           </div>
           <div className="container-component">
-            <h5>Menu white</h5>
+            <h5>Menu dark</h5>
             <p>Componente</p>
             <Header dark />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<Header />`}
+              {`<Header dark />`}
             </SyntaxHighlighter>
           </div>
         </div>
