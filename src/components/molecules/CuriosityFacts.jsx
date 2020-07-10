@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CurosityFacts = () => {
+const CurosityFacts = ({ title, description }) => {
   return (
     <div className="curiosityFacts">
-      <h1>Asteroides</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta nisl non quam congue lacinia. Nullam ornare mi eu elit ultricies dapibus. Aenean congue sollicitudin ante at imperdiet. Nam ac sapien et ipsum sodales porta in id sapien. Phasellus eu nulla magna. Quisque orci ex, gravida quis rutrum nec, consequat sed nibh. Aenean a dolor pharetra,</p>
+      <h1>{title || "Titulo"}</h1>
+      <p>{description || "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore delectus libero repellendus cumque, ipsam incidunt animi quam impedit id possimus pariatur, et officiis labore non distinctio rem, magnam doloremque?"}</p>
     </div>
   );
 };

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CardInfo = () => {
+const CardInfo = ({ title, description }) => {
   return (
     <div className="cardInfo">
-      <h2>Information</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta nisl non quam congue lacinia. Nullam ornare mi eu elit ultricies dapibus. Aenean congue sollicitudin ante at imperdiet. Nam ac sapien et ipsum sodales porta in id sapien. Phasellus eu nulla magna. Quisque orci ex, gravida quis rutrum nec.</p>
+      <h2>{title || "Titulo"}</h2>
+      <p>{description || "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore delectus libero repellendus cumque, ipsam incidunt animi quam impedit id possimus pariatur, et officiis labore non distinctio rem, magnam doloremque?"}</p>
     </div>
   );
 };

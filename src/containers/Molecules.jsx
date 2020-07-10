@@ -10,6 +10,9 @@ import CurosityFacts from '../components/molecules/CuriosityFacts';
 import CardInfo from '../components/molecules/CardInfo';
 import Footer from '../components/molecules/Footer';
 
+//Manisfest
+import { article, cardInfo, curosityFacts } from '../components/manifests/blockContentManifes.json';
+
 const Molecules = () => {
   return (
     <article className="systemContent">
@@ -103,7 +106,7 @@ const Molecules = () => {
           <div className="container-component">
             <h5>Article</h5>
             <p>Componente</p>
-            <Article />
+            <Article {...article} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<Article />`}
@@ -112,7 +115,7 @@ const Molecules = () => {
           <div className="container-component">
             <h5>Curiosity facts</h5>
             <p>Componente</p>
-            <CurosityFacts />
+            <CurosityFacts {...curosityFacts} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<CuriosityFacts />`}
@@ -121,7 +124,7 @@ const Molecules = () => {
           <div className="container-component">
             <h5>Card info</h5>
             <p>Componente</p>
-            <CardInfo />
+            <CardInfo {...cardInfo} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<CardInfo />`}
