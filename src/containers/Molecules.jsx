@@ -109,7 +109,7 @@ const Molecules = () => {
             <Article {...article} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<Article />`}
+              {`<Article title="some title" author="Carolina Laverde..." description="lorem..." />`}
             </SyntaxHighlighter>
           </div>
           <div className="container-component">
@@ -118,7 +118,7 @@ const Molecules = () => {
             <CurosityFacts {...curosityFacts} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<CuriosityFacts />`}
+              {`<CuriosityFacts title="some title" description="lorem..." />`}
             </SyntaxHighlighter>
           </div>
           <div className="container-component">
@@ -127,7 +127,7 @@ const Molecules = () => {
             <CardInfo {...cardInfo} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<CardInfo />`}
+              {`<CardInfo title="some title" description="lorem..." />`}
             </SyntaxHighlighter>
           </div>
         </div>
