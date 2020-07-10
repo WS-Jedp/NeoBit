@@ -6,6 +6,7 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Loading from '../components/molecules/Loading';
 import Menu from '../components/molecules/Menu';
 import Footer from '../components/molecules/Footer';
+import Hero from '../components/molecules/Hero';
 
 const Molecules = () => {
   return (
@@ -84,6 +85,24 @@ const Molecules = () => {
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<Footer />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+
+      <section className="systemContent--section">
+        <h4>Hero</h4>
+        <hr />
+        <p>
+          Este elemento va a contar de que va el proyecto al usuario y empezar a interactuar con el sitio.
+        </p>
+
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <Hero />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Hero />`}
             </SyntaxHighlighter>
           </div>
         </div>
