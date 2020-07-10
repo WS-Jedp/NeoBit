@@ -1,0 +1,13 @@
+.article {
+  width: 440px;
+  & h4 {
+    margin-bottom: 8px;
+  }
+  &-author {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  &-body {
+    text-align: justify;
+  }
+}
