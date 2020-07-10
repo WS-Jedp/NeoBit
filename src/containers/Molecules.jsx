@@ -5,8 +5,14 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 // Componenets
 import Loading from '../components/molecules/Loading';
 import Menu from '../components/molecules/Menu';
+import Article from '../components/molecules/Article';
+import CurosityFacts from '../components/molecules/CuriosityFacts';
+import CardInfo from '../components/molecules/CardInfo';
 import Footer from '../components/molecules/Footer';
 import Hero from '../components/molecules/Hero';
+
+//Manisfest
+import { article, cardInfo, curosityFacts } from '../components/manifests/blockContentManifes.json';
 
 const Molecules = () => {
   return (
@@ -69,14 +75,14 @@ const Molecules = () => {
           </div>
         </div>
       </section>
-
+      
       <section className="systemContent--section">
         <h4>Footer</h4>
         <hr />
         <p>
-          Está sección del sitio es el conocido footer que nos dará acceso a las redes sociales. 
+          Está sección del sitio es el conocido footer que nos dará acceso a las redes sociales.
         </p>
-
+        
         <div className="systemContent--section--components">
           <div className="container-component">
             <h5>Footer</h5>
@@ -91,12 +97,49 @@ const Molecules = () => {
       </section>
 
       <section className="systemContent--section">
+        <h4>Block contents</h4>
+        <hr />
+        <p>
+          Estos son los bloques que van a permitir contener información relevante.
+        </p>
+
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <h5>Article</h5>
+            <p>Componente</p>
+            <Article {...article} />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Article title="some title" author="Carolina Laverde..." description="lorem..." />`}
+            </SyntaxHighlighter>
+          </div>
+          <div className="container-component">
+            <h5>Curiosity facts</h5>
+            <p>Componente</p>
+            <CurosityFacts {...curosityFacts} />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<CuriosityFacts title="some title" description="lorem..." />`}
+            </SyntaxHighlighter>
+          </div>
+          <div className="container-component">
+            <h5>Card info</h5>
+            <p>Componente</p>
+            <CardInfo {...cardInfo} />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<CardInfo title="some title" description="lorem..." />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+        
+      <section className="systemContent--section">
         <h4>Hero</h4>
         <hr />
         <p>
           Este elemento va a contar de que va el proyecto al usuario y empezar a interactuar con el sitio.
         </p>
-
         <div className="systemContent--section--components">
           <div className="container-component">
             <Hero />
@@ -105,8 +148,8 @@ const Molecules = () => {
               {`<Hero />`}
             </SyntaxHighlighter>
           </div>
-        </div>
-      </section>
+         </div>
+        </section>
     </article>
   );
 };
