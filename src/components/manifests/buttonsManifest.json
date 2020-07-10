@@ -1,5 +1,5 @@
-export default {
-  buttons: [
+{
+  "buttons": [
     {
       "name": "Button Normal",
       "code": "<button className=\"button\">Type me</button>",
@@ -25,5 +25,5 @@ export default {
       "code": "<button className=\"button-primaryBlack\">Type me</button>",
       "className": "button-secondaryBlue"
     }
-  ],
+  ]
 }

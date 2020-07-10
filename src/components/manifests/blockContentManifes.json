@@ -1,0 +1,15 @@
+{
+  "article": {
+    "title": "The Makers - Cosmos",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta nisl non quam congue lacinia. Nullam ornare mi eu elit ultricies dapibus.",
+    "author": "Carolina Laverde Y Maria Jose"
+  },
+  "curosityFacts": {
+    "title": "Asteroides",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta nisl non quam congue lacinia. Nullam ornare mi eu elit ultricies dapibus. Aenean congue sollicitudin ante at imperdiet. Nam ac sapien et ipsum sodales porta in id sapien. Phasellus eu nulla magna. Quisque orci ex, gravida quis rutrum nec, consequat sed nibh. Aenean a dolor pharetra,"
+  },
+  "cardInfo": {
+    "title": "Information",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta nisl non quam congue lacinia. Nullam ornare mi eu elit ultricies dapibus. Aenean congue sollicitudin ante at imperdiet. Nam ac sapien et ipsum sodales porta in id sapien. Phasellus eu nulla magna. Quisque orci ex, gravida quis rutrum nec."
+  }
+}
