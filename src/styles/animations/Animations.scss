@@ -6,3 +6,12 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes playX {
+  from {background-position-x: 0;}
+  to {background-position-x: -1024px;}
+}
+@keyframes playY {
+  from {background-position-y: 0px;}
+  to {background-position-y: -1024px;}
+}

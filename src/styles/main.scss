@@ -1,6 +1,15 @@
 @import './reset';
 @import './variables';
 
+// Layouts
+@import '../styles/layouts/LayoutsDS.scss';
+
+// Containers
+@import './containers/AtomsStyles.scss';
+
+// Animations
+@import './animations/Animations.scss';
+
 // Components
 
 // Atoms
@@ -18,13 +27,5 @@
 @import './components/molecules/CardInfo.scss';
 @import './components/molecules/Footer.scss';
 @import './components/molecules/Hero.scss';
-
-// Layouts
-@import '../styles/layouts/LayoutsDS.scss';
-
-// Containers
-@import './containers/AtomsStyles.scss';
-
-// Animations
-@import './animations/Animations.scss';
+@import './components/molecules/Card.scss';
 

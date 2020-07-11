@@ -1,0 +1,34 @@
+.card {
+  width: 300px;
+  height: 420px;
+  border: $color-secondary-gray solid 1px;
+  position: relative;
+  background-color: $color-primary-black;
+  color: $color-primary-white;
+  text-align: center;
+  &-astheroid {
+    position: absolute;
+    top: -64px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 128px;
+    height: 128px;
+    background: url('/images/astheroidSprite.png');
+    background-color: $color-primary-black;
+    animation: playX 1s steps(8) infinite,
+               playY 8s steps(8) infinite;
+  }
+  & h4 {
+    color: $color-secondary-gray;
+    font-weight: $font-weight-bold;
+    margin-top: $space-absolute-xbig;
+    margin-bottom: $space-elements-medium;
+  }
+  & .labelCard {
+    margin-bottom: $space-section-big;
+    margin-right: $space-section-small;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

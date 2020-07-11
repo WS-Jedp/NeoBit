@@ -48,6 +48,7 @@ $font-weight-bold: 900;
 // Space Elements
 // The spaces of elements indicates the margins or paddings that may can have elements like buttons, links, a, sections inside them, etc.
 $space-elements-big: 15px; // Sections
+$space-elements-medium: 26px; // Titles
 $space-elements-small: 12px; // Buttons
 
 // Spaces Sections
@@ -55,6 +56,10 @@ $space-elements-small: 12px; // Buttons
 $space-section-big: 45px; // Are used when it's finished a section about a subject and start another section with other subject
 $space-section-medium: 42px; // Are used for separate elements with a same purpose (cards)
 $space-section-small: 39px; // Are used when it's finished the article or paragraphs with the same parent
+
+// Spaces Absolutes Elements
+// The spaces of elements absolutes are used when a section or article it's relatives.
+$space-absolute-xbig: 125px; // Are used when you need space for elements without position absolute.
 
 // ---------- Spacing ----------
 // ---------- Spacing ----------
