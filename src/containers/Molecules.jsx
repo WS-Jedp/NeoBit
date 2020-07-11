@@ -11,6 +11,7 @@ import CardInfo from '../components/molecules/CardInfo';
 import Footer from '../components/molecules/Footer';
 import LabelCard from '../components/molecules/LabelCard';
 import Hero from '../components/molecules/Hero';
+import Card from '../components/molecules/Card';
 
 //Manisfest
 import { article, cardInfo, curosityFacts } from '../components/manifests/blockContentManifes.json';
@@ -167,8 +168,25 @@ const Molecules = () => {
               {`<Hero />`}
             </SyntaxHighlighter>
           </div>
-         </div>
-        </section>
+        </div>
+      </section>
+
+      <section className="systemContent--section">
+        <h4>Card</h4>
+        <hr />
+        <p>
+          Este elemento va ayudar al usuario a tener la percepción sobre que información va a querer ver a detalle.
+        </p>
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <Card name="Name of Asteroid" diameter="some data" absoluteMagnitude="some data" />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Card name="Name of Asteroid" diameter="some data" absoluteMagnitude="some data" />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
     </article>
   );
 };
