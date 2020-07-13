@@ -1,0 +1,11 @@
+/* width */
+::-webkit-scrollbar {
+  background-color: $color-primary-white;
+  width: 6px;
+  height: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $color-secondary-gray;
+}

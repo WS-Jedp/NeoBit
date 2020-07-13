@@ -16,6 +16,7 @@
 @import './components/atoms/Atoms.scss';
 @import './components/atoms/Buttons.scss';
 @import './components/atoms/LogoLoading.scss';
+@import './components/atoms/Scroll.scss';
 
 // Molecules
 @import './components/molecules/Sidebar.scss';
@@ -32,3 +33,4 @@
 // Organisms
 @import './components/organisms/Header.scss';
 
+@import './components/organisms/CardList.scss';
