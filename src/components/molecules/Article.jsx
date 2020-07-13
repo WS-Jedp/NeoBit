@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Components
+import Button from '../atoms/Button';
+
 const Article = ({ title, author, description }) => {
   return (
     <div className="article">
