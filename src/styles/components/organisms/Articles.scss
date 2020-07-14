@@ -19,8 +19,7 @@
   &-content{
     display: flex;
     flex-flow: column nowrap;
-    min-width: 200px;
-    width: 50%;
+    width: auto;
 
     a{
       margin-top: $space-elements-big;
