@@ -1,7 +1,10 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+
+// Components
 import Header from '../components/organisms/Header';
+import Articles from '../components/organisms/Articles';
 
 const Atoms = () => {
   return (
@@ -40,6 +43,25 @@ const Atoms = () => {
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<Header dark />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+
+      <section className="systemContent--section">
+        <h4>Articles</h4>
+        <hr />
+        <p>
+          Este componente es la composición de los articles en la landing.
+        </p>
+
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <p>Componente</p>
+            <Articles />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<Articles />`}
             </SyntaxHighlighter>
           </div>
         </div>
