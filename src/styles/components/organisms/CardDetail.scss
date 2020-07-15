@@ -1,0 +1,43 @@
+.cardDetail {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 85% 15%;
+  min-width: 1192px;
+  border: $color-secondary-gray solid 1px;
+  position: relative;
+  background-color: $color-primary-black;
+  color: $color-primary-white;
+  padding: 73px 75px 59px 28px;
+  & h1 {
+    height: 102px;
+    position: absolute;
+    left: 67px;
+    top: -57px;
+    background-color: $color-primary-black;
+  }
+  & .astheroid-container {
+    position: relative;
+  }
+  & .info-container {
+    & .cardInfo {
+      margin-bottom: 40px;
+    }
+    & .labelCard {
+      margin-right: 109px;
+      margin-bottom: 40px;
+    }
+  }
+  & .info-container-bottom {
+    & .labelCard {
+      margin-right: 45px;
+      margin-bottom: 30px;
+    }
+  }
+  &-astheroid {
+    @extend %astheroid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
