@@ -31,9 +31,8 @@
   }
   & .labelCard {
     margin-bottom: $space-section-big;
-    margin-right: $space-section-small;
     &:last-of-type {
-      margin-right: 0;
+      margin-bottom: $space-elements-small;
     }
   }
 }

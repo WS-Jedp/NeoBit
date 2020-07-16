@@ -106,7 +106,7 @@ const Atoms = () => {
         <div className="systemContent--section--components">
           <div className="container-component">
             <p>Componente</p>
-            <CardDetail ashteroid={astheroid} />
+            <CardDetail astheroid={astheroid} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<CardDetail astheroid={astheroid} />`}
