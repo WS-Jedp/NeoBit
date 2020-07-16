@@ -3,7 +3,7 @@ import CardInfo from '../molecules/CardInfo';
 import LabelCard from '../molecules/LabelCard';
 import Button from '../atoms/Button';
 
-const CardDetail = ({ ashteroid }) => {
+const CardDetail = ({ astheroid }) => {
   let {
     name,
     absolute_magnitude_h,
@@ -25,7 +25,7 @@ const CardDetail = ({ ashteroid }) => {
         }
       }
     ],
-  } = ashteroid;
+  } = astheroid;
   estimated_diameter_max = estimated_diameter_max.toFixed(2);
   estimated_diameter_min = estimated_diameter_min.toFixed(2);
   miss_distance = Number.parseFloat(miss_distance).toFixed(2);
