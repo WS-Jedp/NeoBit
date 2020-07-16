@@ -10,6 +10,12 @@ import CardDetail from '../components/organisms/CardDetail';
 // Manifests
 import { astheroid } from '../components/manifests/astheroidManifest.json';
 
+// Components
+import CardList from '../components/organisms/CardList';
+
+// Manifests
+import { astheroids } from '../components/manifests/cardListManifest.json';
+
 const Atoms = () => {
   return (
     <article className="systemContent">
@@ -71,6 +77,25 @@ const Atoms = () => {
         </div>
       </section>
 
+      <section className="systemContent--section">
+        <h4>CardList</h4>
+        <hr />
+        <p>
+          Este elemento va ayudar al usuario curiosear por los diferentes recursos que se mostrarán para poder posteriormente ver sus detalles.
+        </p>
+
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <p>Componente</p>
+            <CardList astheroids={astheroids} />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<CardList astheroids={astheroids} />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+      
       <section className="systemContent--section">
         <h4>Card Detail</h4>
         <hr />
