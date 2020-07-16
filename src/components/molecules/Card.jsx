@@ -2,7 +2,8 @@ import React from 'react';
 import LabelCard from './LabelCard';
 import Button from '../atoms/Button';
 
-const Card = () => {
+const Card = ({ astheroid }) => {
+  
   return (
     <div className="card">
       <div className="card-astheroid"></div>
