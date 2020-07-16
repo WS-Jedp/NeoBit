@@ -3,9 +3,12 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Header from '../components/organisms/Header';
 
-
+// Components
 import CardList from '../components/organisms/CardList';
 import Card from '../components/molecules/Card';
+
+// Manifests
+import { astheroids } from '../components/manifests/cardListManifest.json';
 
 const Atoms = () => {
   return (
@@ -59,12 +62,7 @@ const Atoms = () => {
         <div className="systemContent--section--components">
           <div className="container-component">
             <p>Componente</p>
-            <CardList>
-              <Card name="Name of Asteroid" diameter="some data" absoluteMagnitude="some data" />
-              <Card name="Name of Asteroid" diameter="some data" absoluteMagnitude="some data" />
-              <Card name="Name of Asteroid" diameter="some data" absoluteMagnitude="some data" />
-              <Card name="Name of Asteroid" diameter="some data" absoluteMagnitude="some data" />
-            </CardList>
+            <CardList astheroids={astheroids} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<CardList> {array.map(data => (<Card />))} </CardList>`}
