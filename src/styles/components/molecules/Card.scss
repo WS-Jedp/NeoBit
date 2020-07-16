@@ -1,3 +1,13 @@
+%astheroid {
+  width: 128px;
+  height: 128px;
+  transform: translate(-50%, 0);
+  position: absolute;
+  background: url('/images/astheroidSprite.png');
+  animation: playX 1s steps(8) infinite,
+              playY 8s steps(8) infinite;
+}
+
 .card {
   max-width: 300px;
   min-width: 300px;
@@ -8,16 +18,10 @@
   color: $color-primary-white;
   text-align: center;
   &-astheroid {
-    position: absolute;
+    @extend %astheroid;
     top: -64px;
     left: 50%;
-    transform: translate(-50%, 0);
-    width: 128px;
-    height: 128px;
-    background: url('/images/astheroidSprite.png');
     background-color: $color-primary-black;
-    animation: playX 1s steps(8) infinite,
-               playY 8s steps(8) infinite;
   }
   & h4 {
     color: $color-secondary-gray;

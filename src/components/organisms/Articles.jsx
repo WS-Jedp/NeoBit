@@ -12,7 +12,7 @@ const Articles = () => {
           author="Carolina Laverde Y  Maria Jose" 
           description="Las galaxias forman estrellas, las estrellas forman mundos y los mundos forman vidas."
         />
-        <a className="button button-secondaryBlue">Click Me!</a>
+        <a className="button button-secondaryBlue">Escuchar</a>
       </div>
       <hr/>
       <div className="articles-content">
@@ -21,7 +21,7 @@ const Articles = () => {
           author="Carolina Laverde Y  Maria Jose" 
           description="Las galaxias forman estrellas, las estrellas forman mundos y los mundos forman vidas. Parte 2."
         />
-      <a className="button button-secondaryBlue">Click Me!</a>
+      <a className="button button-secondaryBlue">Escuchar</a>
       </div>
     </article>
   )

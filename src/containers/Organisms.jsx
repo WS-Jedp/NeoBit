@@ -5,6 +5,10 @@ import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 // Components
 import Header from '../components/organisms/Header';
 import Articles from '../components/organisms/Articles';
+import CardDetail from '../components/organisms/CardDetail';
+
+// Manifests
+import { astheroid } from '../components/manifests/astheroidManifest.json';
 
 // Components
 import CardList from '../components/organisms/CardList';
@@ -72,7 +76,7 @@ const Atoms = () => {
           </div>
         </div>
       </section>
-        
+
       <section className="systemContent--section">
         <h4>CardList</h4>
         <hr />
@@ -91,6 +95,26 @@ const Atoms = () => {
           </div>
         </div>
       </section>
+      
+      <section className="systemContent--section">
+        <h4>Card Detail</h4>
+        <hr />
+        <p>
+          Este elemento va ayudar al usuario obtener la información del recurso a detalle.
+        </p>
+
+        <div className="systemContent--section--components">
+          <div className="container-component">
+            <p>Componente</p>
+            <CardDetail ashteroid={astheroid} />
+            <p>Código</p>
+            <SyntaxHighlighter language="htmlbars" style={dark}>
+              {`<CardDetail astheroid={astheroid} />`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+
     </article>
   );
 };

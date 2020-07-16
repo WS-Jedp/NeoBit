@@ -31,8 +31,8 @@
       & > *:nth-child(n) {
         margin-bottom: $space-elements-small;
       }
-      & .card {
-        margin-top: $space-section-big;
+      & .card, .cardDetail {
+        margin-top: $space-absolute-xbig;
       }
     }
   }
