@@ -1,11 +1,13 @@
 .article {
-  width: 440px;
+  position: relative;
+  min-width: 340px;
+  width: auto;
   & h4 {
     margin-bottom: 8px;
   }
   &-author {
     font-size: 24px;
-    margin-bottom: 9px;
+    margin-bottom: 9px; 
   }
   &-body {
     text-align: justify;
