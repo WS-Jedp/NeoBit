@@ -8,7 +8,6 @@ import Articles from '../components/organisms/Articles';
 
 // Components
 import CardList from '../components/organisms/CardList';
-import Card from '../components/molecules/Card';
 
 // Manifests
 import { astheroids } from '../components/manifests/cardListManifest.json';
@@ -65,10 +64,6 @@ const Atoms = () => {
         <div className="systemContent--section--components">
           <div className="container-component">
             <p>Componente</p>
-            <CardList astheroids={astheroids} />
-            <p>Código</p>
-            <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<CardList> {array.map(data => (<Card />))} </CardList>`}
             <Articles />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
@@ -88,10 +83,10 @@ const Atoms = () => {
         <div className="systemContent--section--components">
           <div className="container-component">
             <p>Componente</p>
-            <Articles />
+            <CardList astheroids={astheroids} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
-              {`<Articles />`}
+              {`<CardList astheroids={astheroids} />`}
             </SyntaxHighlighter>
           </div>
         </div>
