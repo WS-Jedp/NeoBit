@@ -28,9 +28,20 @@ const Molecules = () => {
         <p>
           Las moleculas nos ayudaran a mantener una interacción activa con nuestros usuarios, son fundamentales para poder tener un sistema de diseño sostenible. 
         </p>
+        <nav>
+          <ul>
+            <li><a href="/ds/molecules/#menu">Menu</a></li>
+            <li><a href="/ds/molecules/#loading">Loading</a></li>
+            <li><a href="/ds/molecules/#footer">Footer</a></li>
+            <li><a href="/ds/molecules/#labelCard">Label Card</a></li>
+            <li><a href="/ds/molecules/#blockContents">Block Contents</a></li>
+            <li><a href="/ds/molecules/#hero">Hero</a></li>
+            <li><a href="/ds/molecules/#card">Card</a></li>
+          </ul>
+        </nav>
       </div>
 
-      <section className="systemContent--section">
+      <section id="menu" className="systemContent--section">
         <h4>Menu</h4>
         <hr />
         <p>
@@ -59,7 +70,7 @@ const Molecules = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="loading" className="systemContent--section">
         <h4>Loading</h4>
         <hr />
         <p>
@@ -79,7 +90,7 @@ const Molecules = () => {
         </div>
       </section>
       
-      <section className="systemContent--section">
+      <section id="footer" className="systemContent--section">
         <h4>Footer</h4>
         <hr />
         <p>
@@ -99,7 +110,7 @@ const Molecules = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="labelCard" className="systemContent--section">
         <h4>Label Card</h4>
         <hr />
         <p>
@@ -117,7 +128,7 @@ const Molecules = () => {
         </div>
       </section>
       
-      <section className="systemContent--section">
+      <section id="blockContents" className="systemContent--section">
         <h4>Block contents</h4>
         <hr />
         <p>
@@ -155,7 +166,7 @@ const Molecules = () => {
         </div>
       </section>
       
-      <section className="systemContent--section">
+      <section id="hero" className="systemContent--section">
         <h4>Hero</h4>
         <hr />
         <p>
@@ -172,7 +183,7 @@ const Molecules = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="card" className="systemContent--section">
         <h4>Card</h4>
         <hr />
         <p>
