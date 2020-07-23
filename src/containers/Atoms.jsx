@@ -19,9 +19,16 @@ const Atoms = () => {
           grandes, permitiendonos poco a poco a construir y transmitir los
           fundamentos y principios de <strong>NeoBit</strong>.
         </p>
+        <nav>
+          <ul>
+            <li><a href="/ds/atoms/#headers">Encabezados</a></li>
+            <li><a href="/ds/atoms/#buttons">Botones</a></li>
+            <li><a href="/ds/atoms/#logoLoading">Logo Loading</a></li>
+          </ul>
+        </nav>
       </div>
 
-      <section className="systemContent--section">
+      <section id="headers" className="systemContent--section">
         <h4>Encabezados</h4>
         <hr />
         <p>
@@ -61,7 +68,7 @@ const Atoms = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="buttons" className="systemContent--section">
         <h4>Botones</h4>
         <hr />
         <p>
@@ -85,7 +92,7 @@ const Atoms = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="logoLoading" className="systemContent--section">
         <h4>Logo Loading</h4>
         <hr />
         <p>

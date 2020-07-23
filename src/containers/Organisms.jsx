@@ -9,12 +9,10 @@ import CardDetail from '../components/organisms/CardDetail';
 
 // Manifests
 import { astheroid } from '../components/manifests/astheroidManifest.json';
+import { astheroids } from '../components/manifests/cardListManifest.json';
 
 // Components
 import CardList from '../components/organisms/CardList';
-
-// Manifests
-import { astheroids } from '../components/manifests/cardListManifest.json';
 
 const Atoms = () => {
   return (
@@ -25,11 +23,19 @@ const Atoms = () => {
         </h1>
         <hr />
         <p>
-          Las moleculas nos ayudaran a mantener una interacción activa con nuestros usuarios, son fundamentales para poder tener un sistema de diseño sostenible.
+          Los organismos son el resutado de atomos y moleculas juntos.
         </p>
+        <nav>
+          <ul>
+            <li><a href="/ds/organisms/#header">Header</a></li>
+            <li><a href="/ds/organisms/#articles">Articles</a></li>
+            <li><a href="/ds/organisms/#cardList">Card List</a></li>
+            <li><a href="/ds/organisms/#cardDetail">Card Detail</a></li>
+          </ul>
+        </nav>
       </div>
 
-      <section className="systemContent--section">
+      <section id="header" className="systemContent--section">
         <h4>Header</h4>
         <hr />
         <p>
@@ -47,7 +53,7 @@ const Atoms = () => {
             </SyntaxHighlighter>
           </div>
           <div className="container-component">
-            <h5>Menu dark</h5>
+            <h5>Header dark</h5>
             <p>Componente</p>
             <Header dark />
             <p>Código</p>
@@ -58,7 +64,7 @@ const Atoms = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="articles" className="systemContent--section">
         <h4>Articles</h4>
         <hr />
         <p>
@@ -77,7 +83,7 @@ const Atoms = () => {
         </div>
       </section>
 
-      <section className="systemContent--section">
+      <section id="cardList" className="systemContent--section">
         <h4>CardList</h4>
         <hr />
         <p>
@@ -96,7 +102,7 @@ const Atoms = () => {
         </div>
       </section>
       
-      <section className="systemContent--section">
+      <section id="cardDetail" className="systemContent--section">
         <h4>Card Detail</h4>
         <hr />
         <p>

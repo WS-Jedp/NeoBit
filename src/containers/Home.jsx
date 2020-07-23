@@ -1,17 +1,12 @@
 import React from 'react';
+import Hero from '../components/molecules/Hero';
 
-class Home extends React.PureComponent {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <section>
-        <h1>Hello World!</h1>
-      </section>
-    );
-  }
-}
+const Home = () => {
+  return (
+    <>
+      <Hero />
+    </>
+  );
+};
 
 export default Home;

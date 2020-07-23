@@ -1,25 +1,25 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import logo from '../../images/logoDS.svg'
+import { NavLink, Link } from 'react-router-dom';
+import logo from '../../../images/logoDS.svg'
 
 const SideBar = () => {
   return (
     <div className="sidebar">
-      <img src={logo} alt="" />
+      <Link to="/ds"><img src={logo} alt="" /></Link>
       <nav>
         <ul>
           <li>
-            <NavLink to="/atoms" activeClassName="selected">
+            <NavLink to="/ds/atoms" activeClassName="selected">
               Atomos
             </NavLink>
           </li>
           <li>
-            <NavLink to="/molecules" activeClassName="selected">
+            <NavLink to="/ds/molecules" activeClassName="selected">
               Moléculas
             </NavLink>
           </li>
           <li>
-            <NavLink to="/organisms" activeClassName="selected">
+            <NavLink to="/ds/organisms" activeClassName="selected">
               Organismos
             </NavLink>
           </li>

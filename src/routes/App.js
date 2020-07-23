@@ -1,27 +1,32 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Router } from 'react-router-dom';
+import { createBrowserHistory } from "history";
 
 //Layouts
-import Layout from '../layouts/Layout'
+import LayoutDS from '../layouts/LayoutDS'
+import LayoutWS from '../layouts/LayoutWS'
 
 // Components
 import Home from '../containers/Home';
+import HomeDS from '../containers/HomeDS';
 import Atoms from '../containers/Atoms';
 import Molecules from '../containers/Molecules';
 import Organisms from '../containers/Organisms';
+import AppRoute from '../layouts/AppRoute';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Layout>
+    <>
+      <Router history={createBrowserHistory()}>
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/atoms' component={Atoms} />
-          <Route exact path='/molecules' component={Molecules} />
-          <Route exact path='/organisms' component={Organisms} />
+          <AppRoute exact path="/" component={Home} layout={LayoutWS} />
+          <AppRoute exact path='/ds' component={HomeDS} layout={LayoutDS} />
+          <AppRoute path='/ds/atoms' component={Atoms} layout={LayoutDS} />
+          <AppRoute path='/ds/molecules' component={Molecules} layout={LayoutDS} />
+          <AppRoute path='/ds/organisms'  component={Organisms} layout={LayoutDS} />
         </Switch>
-      </Layout>
-    </BrowserRouter>
+      </Router>
+    </>
   )
 }
 

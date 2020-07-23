@@ -4,6 +4,8 @@
   background-color: $color-primary-black;
   color: $color-primary-white;
   overflow: hidden;
+  padding-left: $space-section-big;
+  padding-bottom: $space-section-big;
 
   &-text{
     position: relative;
@@ -13,9 +15,8 @@
 
   &-image {
     position: relative;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    bottom: -100px;
+    right: -270px;
     min-width: 330px;
     width: 50%;
 

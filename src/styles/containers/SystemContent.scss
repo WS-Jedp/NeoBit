@@ -3,11 +3,24 @@
 
   &--information{
     margin-bottom: $space-section-medium;
+    p {
+      margin-bottom: $space-elements-medium;
+    }
+    ul {
+      list-style: '# ';
+      margin-left: $space-elements-small;
+    }
+    a {
+      color: $color-secondary-blue;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   &--section {
     position: relative;
-    width: 100%;
     min-height: 120px;
     height: auto;
     padding: $space-elements-big;
@@ -24,6 +37,7 @@
     }
 
     .container-component {
+      position: relative;
       margin-bottom: $space-elements-big;
       padding: $space-elements-small;
       background-color: $color-secondary-gray;
