@@ -2,10 +2,13 @@
 @import './variables';
 
 // Layouts
-@import '../styles/layouts/LayoutsDS.scss';
+@import '../styles/layouts/LayoutWS.scss';
+@import '../styles/layouts/LayoutDS.scss';
 
 // Containers
 @import './containers/SystemContent.scss';
+@import './containers/Astheroids.scss';
+@import './containers/AstheroidDetail.scss';
 
 // Animations
 @import './animations/Animations.scss';

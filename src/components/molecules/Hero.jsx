@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 // Image
 import Moon from '../../../images/Moon.png';
@@ -13,9 +14,9 @@ const Hero = () => {
         <p className="hero-content">
           Somos la nueva plataforma web dedicada a la divulgación de los datos científicos de la NASA para el mundo. Comienza tu nueva aventura en los alrededores de nuestro planeta y disfruta una autentica experiencia cósmica. 
         </p>
-        <button className="button button-primaryBlack">
+        <Link to="/astheroids" className="button button-primaryBlack">
           Conocer Más
-        </button>
+        </Link>
       </section>
       <figure className="hero-image">
         <img src={Moon} alt="The moon of NeoBit"/>

@@ -15,3 +15,11 @@
   from {background-position-y: 0px;}
   to {background-position-y: -1024px;}
 }
+
+@mixin animationScale {
+  transition-duration: 0.5s;
+  transition-property: all;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

@@ -1,16 +1,20 @@
 import React from 'react';
+import { useLocation } from "react-router-dom";
 
 // Components
-import SideBar from '../components/molecules/SideBar';
 import Header from '../components/organisms/Header';
+import Footer from '../components/molecules/Footer';
 
-const Layout = ({ children, component: Component }) => {
+const Layout = ({ children }) => {
+  let location = useLocation();
+  let dark = location.pathname !== '/' ? false : true;
   return (
-    <div className="">
-      <Header dark />
-      <section className="">
+    <div className="layoutWS">
+      <Header dark={dark} />
+      <section>
         {children}
       </section>
+      <Footer />
     </div>
   );
 };

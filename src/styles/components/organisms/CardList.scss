@@ -2,10 +2,9 @@
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  width: 100%;
-  max-width: 100%;
   padding: $space-elements-big;
-  background-color: $color-primary-black;
+  background-color: transparent;
+  overflow-y: hidden;
   overflow-x: scroll;
 
   & .card {

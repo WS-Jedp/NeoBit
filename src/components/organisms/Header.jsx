@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 // images
 import logoWhite from '../../../images/logoWhite.svg'
@@ -15,7 +16,7 @@ const Header = ({ dark }) => {
   });
   return (
     <header className={headerClass}>
-      <a href=""><img src={(dark && logoWhite) || logoBlack} alt="Neobit Logo" /></a>
+      <Link to="/"><img src={(dark && logoWhite) || logoBlack} alt="Neobit Logo" /></Link>
       <Menu dark={dark} />
     </header>
   );

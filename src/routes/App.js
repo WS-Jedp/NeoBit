@@ -5,14 +5,16 @@ import { createBrowserHistory } from "history";
 //Layouts
 import LayoutDS from '../layouts/LayoutDS'
 import LayoutWS from '../layouts/LayoutWS'
+import AppRoute from '../layouts/AppRoute';
 
 // Components
 import Home from '../containers/Home';
+import Astheroids from '../containers/Astheroids';
 import HomeDS from '../containers/HomeDS';
 import Atoms from '../containers/Atoms';
 import Molecules from '../containers/Molecules';
 import Organisms from '../containers/Organisms';
-import AppRoute from '../layouts/AppRoute';
+import AstheroidDetail from '../containers/AstheroidDetail';
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
       <Router history={createBrowserHistory()}>
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutWS} />
+          <AppRoute exact path="/astheroids" component={Astheroids} layout={LayoutWS} />
+          <AppRoute exact path="/astheroids/:id" component={AstheroidDetail} layout={LayoutWS} />
           <AppRoute exact path='/ds' component={HomeDS} layout={LayoutDS} />
           <AppRoute path='/ds/atoms' component={Atoms} layout={LayoutDS} />
           <AppRoute path='/ds/molecules' component={Molecules} layout={LayoutDS} />

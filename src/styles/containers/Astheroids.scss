@@ -1,0 +1,13 @@
+.astheroids {
+  margin-top: $space-section-medium;
+  .curiosityFacts {
+    padding: 0 $space-section-big
+  }
+  .cardList {
+    padding-top: $space-absolute-xbig;
+    padding-left: $space-section-medium;
+  }
+  .loading {
+    padding-top: $space-section-xbig;
+  }
+}
