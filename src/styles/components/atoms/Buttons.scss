@@ -8,8 +8,9 @@
   border: $color-primary-white 1px solid;
   background-color: $color-primary-black;
   color: $color-primary-white;
-  font-family: $font-primary;
-  font-size: $font-size-p;
+  font-family: $font-secondary;
+  font-size: $font-size-buttons;
+  font-weight: $font-weight-light;
   transition: 0.3s ease-in-out;
   cursor: pointer;
   text-decoration: none;
