@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: 85% 15%;
-  min-width: 1192px;
   border: $color-secondary-gray solid 1px;
   position: relative;
   background-color: $color-primary-black;
@@ -28,6 +27,9 @@
     }
   }
   & .info-container-bottom {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: $space-elements-small;
     & .labelCard {
       margin-right: 45px;
       margin-bottom: 30px;

@@ -8,10 +8,13 @@
   }
   .social {
     font-size: $font-size-p;
-    & svg {
+    & a {
+      color: $color-primary-white;
+    }
+    & a {
       margin-right: $space-elements-small;
     }
-    & svg:last-child {
+    & a:last-child {
       margin-right: 0;
     }
   }

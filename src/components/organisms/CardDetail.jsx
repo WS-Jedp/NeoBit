@@ -2,6 +2,7 @@ import React from 'react';
 import CardInfo from '../molecules/CardInfo';
 import LabelCard from '../molecules/LabelCard';
 import Button from '../atoms/Button';
+import { Link } from 'react-router-dom';
 
 const CardDetail = ({ astheroid }) => {
   let {
@@ -43,7 +44,7 @@ const CardDetail = ({ astheroid }) => {
           <LabelCard title="Diametro Estimado Min" description={estimated_diameter_min ? `${estimated_diameter_min} km` : '421.520 km'} />
           <LabelCard title="Diametro Estimado Max" description={estimated_diameter_max ? `${estimated_diameter_max} km` : '421.520 km'} />
         </div>
-        <a className="button-primaryWhite">Regresar</a>
+        <Link to="/astheroids" className="button-primaryWhite">Regresar</Link>
       </div>
       <div className="info-container-bottom">
         <LabelCard title="Distancia maxima" description={miss_distance ? `${miss_distance} km` : '421.520 km'} />

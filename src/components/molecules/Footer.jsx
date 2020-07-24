@@ -6,9 +6,15 @@ const Footer = () => {
     <footer className="footer-social">
       <p>Copyrigth © By Platzi Master</p>
       <div className="social">
-        <FaGithub />
-        <FaInstagramSquare />
-        <FaTwitterSquare />
+        <a target="_blank" href="https://github.com/WS-Jedp/NeoBit">
+          <FaGithub />
+        </a>
+        <a href="">
+          <FaInstagramSquare />
+        </a>
+        <a href="">
+          <FaTwitterSquare />
+        </a>
       </div>
     </footer>
   );

@@ -17,6 +17,7 @@
   background-color: $color-primary-black;
   color: $color-primary-white;
   text-align: center;
+  @include animationScale;
   &-astheroid {
     @extend %astheroid;
     top: -64px;

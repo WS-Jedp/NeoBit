@@ -53,13 +53,15 @@ $space-elements-small: 12px; // Buttons
 
 // Spaces Sections
 // The spaces of section are used when a section or article it's finished and start another sections about some subject.
+$space-section-xbig: 150px; // Are used when you have to separate elements for a big space.
 $space-section-big: 45px; // Are used when it's finished a section about a subject and start another section with other subject
 $space-section-medium: 42px; // Are used for separate elements with a same purpose (cards)
 $space-section-small: 39px; // Are used when it's finished the article or paragraphs with the same parent
 
 // Spaces Absolutes Elements
 // The spaces of elements absolutes are used when a section or article it's relatives.
-$space-absolute-xbig: 125px; // Are used when you need space for elements without position absolute.
+$space-absolute-small: 60px; // Are used when you need space for elements with position relative.
+$space-absolute-xbig: 125px; // Are used when you need space for elements with position relative.
 
 // ---------- Spacing ----------
 // ---------- Spacing ----------

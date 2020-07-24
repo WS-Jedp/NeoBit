@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 
 const Menu = ({dark}) => {
@@ -9,9 +10,9 @@ const Menu = ({dark}) => {
   });
   return (
     <ul className={menuClass}>
-      <li><a>Home</a></li>
-      <li><a>Discover</a></li>
-      <li><a>Blog</a></li>
+      <li><Link to="/">Inicio</Link></li>
+      <li><Link to="/astheroids">Descubre</Link></li>
+      <li><Link to="/gallery">Galería</Link></li>
     </ul>
   );
 };
