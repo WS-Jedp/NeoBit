@@ -2,6 +2,9 @@ import React from 'react';
 import CardInfo from '../molecules/CardInfo';
 import LabelCard from '../molecules/LabelCard';
 import { Link } from 'react-router-dom';
+import astheroid1 from '../../../images/astheroid1.svg';
+import astheroid2 from '../../../images/astheroid2.svg';
+import astheroid3 from '../../../images/astheroid3.svg';
 
 const CardDetail = ({ astheroid }) => {
   let {
@@ -27,10 +30,10 @@ const CardDetail = ({ astheroid }) => {
     <div className="cardDetail">
       <h1>{name || 'Name Of Asteroid'}</h1>
       <div className="astheroid-container">
-        <div className="cardDetail-astheroid"></div>
+        <img src={astheroid1}></img>
       </div>
       <div className="info-container">
-        <CardInfo title="Información" description={`El asteroide ${name}, es uno de los asteroides que orbita nuestro sistema solar. Por lo cual ${is_potentially_hazardous_asteroid ? '' : 'no'} lo hace peligroso de este asteroide para un impacto con el planeta tierra.`} />
+        <CardInfo title="Información" description={`El asteroide ${name}, es uno de los asteroides que orbita nuestro sistema solar. Por lo cual ${is_potentially_hazardous_asteroid ? '' : 'no'} lo hace de este asteroide peligroso para un impacto con el planeta tierra.`} />
         <div>
           <LabelCard title="¿Es peligroso?" description={is_potentially_hazardous_asteroid ? 'Sí' : 'No'} />
           <LabelCard title="Diametro Estimado Min" description={estimated_diameter_min ? `${estimated_diameter_min} km` : '421.520 km'} />
