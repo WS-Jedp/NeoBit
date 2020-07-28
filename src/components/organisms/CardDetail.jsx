@@ -8,7 +8,7 @@ const CardDetail = ({ astheroid }) => {
     name,
     absolute_magnitude_h,
     estimated_diameter: {
-      meters: {
+      kilometers: {
         estimated_diameter_min,
         estimated_diameter_max,
       }

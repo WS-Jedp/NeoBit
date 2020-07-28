@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import CardDetail from '../components/organisms/CardDetail';
-import { astheroid } from '../components/manifests/astheroidManifest.json';
 import Loading from '../components/molecules/Loading';
 
 const AstheroidDetail = ({ match }) => {

@@ -9,7 +9,7 @@ const Card = ({ astheroid }) => {
     name,
     is_potentially_hazardous_asteroid,
     estimated_diameter: {
-      meters: {
+      kilometers: {
         estimated_diameter_max,
       }
     },
