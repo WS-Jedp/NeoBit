@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Card = ({ astheroid }) => {
   let {
-    id,
+    _id,
     name,
     is_potentially_hazardous_asteroid,
     estimated_diameter: {
@@ -21,7 +21,7 @@ const Card = ({ astheroid }) => {
       <h4>{name || 'Name of Asteroid'}</h4>
       <LabelCard title="Diametro maximo" description={estimated_diameter_max ? `${estimated_diameter_max} km` : '421.520 km'} />
       <LabelCard title="¿Es peligroso?" description={is_potentially_hazardous_asteroid ? 'Sí' : 'No'} />
-      <Link to={`/astheroids/${id}`} className="button-secondaryGray">Ver más</Link>
+      <Link to={`/astheroids/${_id}`} className="button-secondaryGray">Ver más</Link>
     </div>
   );
 };
