@@ -22,15 +22,21 @@ const CardDetail = ({ astheroid }) => {
       last_observation_date,
     }
   } = astheroid;
+  const images = [
+    astheroid1,
+    astheroid2
+  ];
   estimated_diameter_max = estimated_diameter_max.toFixed(2);
   estimated_diameter_min = estimated_diameter_min.toFixed(2);
-  // miss_distance = Number.parseFloat(miss_distance).toFixed(2);
-  // relative_velocity = Number.parseFloat(relative_velocity).toFixed(2);
+
+  const getRandomAstheroid = images => images[Math.floor(Math.random() * 2)];
+  const randomImage = getRandomAstheroid(images);
+
   return (
     <div className="cardDetail">
       <h1>{name || 'Name Of Asteroid'}</h1>
       <div className="astheroid-container">
-        <img src={astheroid1}></img>
+        <img src={is_potentially_hazardous_asteroid ? astheroid3 : randomImage} alt="Astheroid" />
       </div>
       <div className="info-container">
         <CardInfo title="Información" description={`El asteroide ${name}, es uno de los asteroides que orbita nuestro sistema solar. Por lo cual ${is_potentially_hazardous_asteroid ? '' : 'no'} lo hace de este asteroide peligroso para un impacto con el planeta tierra.`} />
