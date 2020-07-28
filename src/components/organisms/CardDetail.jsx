@@ -1,7 +1,6 @@
 import React from 'react';
 import CardInfo from '../molecules/CardInfo';
 import LabelCard from '../molecules/LabelCard';
-import Button from '../atoms/Button';
 import { Link } from 'react-router-dom';
 
 const CardDetail = ({ astheroid }) => {
@@ -38,7 +37,7 @@ const CardDetail = ({ astheroid }) => {
         <div className="cardDetail-astheroid"></div>
       </div>
       <div className="info-container">
-        <CardInfo title="Information" />
+        <CardInfo title="Information" description={`El asteroide ${name}, es uno de los asteroides que orbita nuestro sistema solar a una velocidad de ${relative_velocity}. En su punto más lejano con el planeta tierra, se encuentra a una ${miss_distance} disntancia. Por lo cual ${is_potentially_hazardous_asteroid ? '' : 'no'} lo hace peligroso de este asteroide para un impacto con el planeta tierra.`} />
         <div>
           <LabelCard title="¿Es peligroso?" description={is_potentially_hazardous_asteroid ? 'Sí' : 'No'} />
           <LabelCard title="Diametro Estimado Min" description={estimated_diameter_min ? `${estimated_diameter_min} km` : '421.520 km'} />
@@ -47,7 +46,7 @@ const CardDetail = ({ astheroid }) => {
         <Link to="/astheroids" className="button-primaryWhite">Regresar</Link>
       </div>
       <div className="info-container-bottom">
-        <LabelCard title="Distancia maxima" description={miss_distance ? `${miss_distance} km` : '421.520 km'} />
+        <LabelCard title="Distancia de impacto" description={miss_distance ? `${miss_distance} km` : '421.520 km'} />
         <LabelCard title="Velocidad Relativa" description={relative_velocity ? `${relative_velocity} km/h` : '421.520 km/h'} />
         <LabelCard title="Magnitud Absoluta H" description={absolute_magnitude_h ? `${absolute_magnitude_h}` : '21.520'} />
       </div>
