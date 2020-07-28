@@ -6,7 +6,7 @@ const CardList = ({ astheroids }) => {
   return (
     <section className="cardList">
       {
-        astheroids.map((astheroid, index) => <Card astheroid={astheroid} key={index} />)
+        astheroids.map((astheroid, index) => <Card astheroid={astheroid} key={astheroid.id} />)
       }
     </section>
   );
