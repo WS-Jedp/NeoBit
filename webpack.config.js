@@ -6,7 +6,7 @@ module.exports = {
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'app.js'
+    filename: 'app.js',
   },
   devServer: {
     historyApiFallback: true,
@@ -74,7 +74,8 @@ module.exports = {
       {
         inject: true,
         template: './public/index.html',
-        filename: 'index.html'
+        filename: 'index.html',
+        favicon: './images/isotypeBlack_1x.png'
       }
     ),
     new MiniCSSExtractPlugin({
