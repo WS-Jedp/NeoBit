@@ -5,6 +5,8 @@
     src="https://res.cloudinary.com/abdiel8real/image/upload/v1596045225/neobit/logoBlack_2x_kwp4o7.png">
 </div>
 
+NeoBit is a project that offers a new way to see story world, through science and astheroids study.
+
 ## 📢 Requirements
 - Node JS 12.16.1 _(Recommended)_
 - NPM 6.13.4 _(Recommended)_
