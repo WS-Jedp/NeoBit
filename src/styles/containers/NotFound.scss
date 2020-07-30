@@ -1,0 +1,28 @@
+.notFound {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 240px);
+  position: relative;
+  h2 {
+    color: $color-secondary-gray;
+    font-weight: $font-weight-bold;
+    margin-bottom: 30px
+  }
+  img#notFound {
+    width: 700px;
+    margin-bottom: $space-elements-medium;
+  }
+  img#fourHoundred {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+  }
+  img {
+    animation-name: animationFloating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
