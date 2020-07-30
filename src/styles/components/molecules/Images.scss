@@ -1,0 +1,14 @@
+.imgContainer {
+  width: 100%;
+  height: 250px;
+  border: solid 2px $color-secondary-gray;
+  padding: 2.5px;
+  box-sizing: border-box;
+  @include animationScale;
+  img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    @include animationGrayScale;
+  }
+}

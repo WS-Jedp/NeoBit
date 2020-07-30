@@ -1,0 +1,7 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: $space-absolute-small;
+  row-gap: $space-absolute-small;
+  padding: $space-absolute-small $space-elements-big;
+}
