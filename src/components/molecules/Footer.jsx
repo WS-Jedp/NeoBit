@@ -1,5 +1,8 @@
 import React from 'react';
-import { FaGithub, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import IsoDS from '../../../images/DS.svg';
+import IsoAPI from '../../../images/API.svg';
 
 const Footer = () => {
   return (
@@ -9,11 +12,11 @@ const Footer = () => {
         <a target="_blank" href="https://github.com/WS-Jedp/NeoBit">
           <FaGithub />
         </a>
-        <a href="">
-          <FaInstagramSquare />
-        </a>
-        <a href="">
-          <FaTwitterSquare />
+        <Link to="/ds/">
+          <img src={IsoDS} alt="Isotipo del sistema de diseño" />
+        </Link>
+        <a target="_blank" href="http://ec2-54-234-62-6.compute-1.amazonaws.com:8080/public/docs/">
+          <img src={IsoAPI} alt="Isotipo de la API" />
         </a>
       </div>
     </footer>
