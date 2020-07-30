@@ -8,7 +8,7 @@ import Articles from '../components/organisms/Articles';
 import CardDetail from '../components/organisms/CardDetail';
 
 // Manifests
-import { astheroid } from '../components/manifests/astheroidManifest.json';
+import { astheroidManifest } from '../components/manifests/astheroidManifest.json';
 import { astheroids } from '../components/manifests/cardListManifest.json';
 
 // Components
@@ -112,7 +112,7 @@ const Atoms = () => {
         <div className="systemContent--section--components">
           <div className="container-component">
             <p>Componente</p>
-            <CardDetail astheroid={astheroid} />
+            <CardDetail astheroid={astheroidManifest} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<CardDetail astheroid={astheroid} />`}

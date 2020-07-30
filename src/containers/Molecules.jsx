@@ -15,7 +15,7 @@ import Card from '../components/molecules/Card';
 
 //Manisfest
 import { article, cardInfo, curosityFacts } from '../components/manifests/blockContentManifes.json';
-import { astheroid } from '../components/manifests/astheroidManifest.json';
+import { astheroidManifest } from '../components/manifests/astheroidManifest.json';
 
 const Molecules = () => {
   return (
@@ -191,7 +191,7 @@ const Molecules = () => {
         </p>
         <div className="systemContent--section--components">
           <div className="container-component">
-            <Card astheroid={astheroid} />
+            <Card astheroid={astheroidManifest} />
             <p>Código</p>
             <SyntaxHighlighter language="htmlbars" style={dark}>
               {`<Card ashteroid={astheroid} />`}

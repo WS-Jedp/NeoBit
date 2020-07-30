@@ -72,8 +72,13 @@ const Gallery = () => {
       const images = document.querySelectorAll('.imgContainer');
       const lastImage = images[images.length - 1];
       observer.observe(lastImage);
+      return lastImage;
     };
-    getImages();
+    let lastImage;
+    getImages().then(element => lastImage = element).catch(error => setError(error));
+    return () => {
+      observer.unobserve(lastImage)
+    }
   }, []);
   return (
     <>
