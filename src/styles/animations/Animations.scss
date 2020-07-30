@@ -23,3 +23,11 @@
     transform: scale(1.2);
   }
 }
+
+@mixin animationGrayScale {
+  transition-duration: 1s;
+  transition-property: all;
+  &:hover {
+    filter: grayscale(0);
+  }
+}
