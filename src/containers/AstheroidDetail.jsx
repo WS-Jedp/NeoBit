@@ -41,7 +41,6 @@ const AstheroidDetail = ({ match }) => {
         })
       });
       const body = await response.json();
-      console.log(body)
       setAstheroid(body.data.getNeo);
       setLoading(false);
     };

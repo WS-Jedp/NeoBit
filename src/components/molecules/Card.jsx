@@ -1,9 +1,10 @@
 import React from 'react';
 import LabelCard from './LabelCard';
 import { Link } from 'react-router-dom';
+import { astheroidManifest } from '../manifests/astheroidManifest.json';
 
 
-const Card = ({ astheroid }) => {
+const Card = ({ astheroid = astheroidManifest}) => {
   let {
     _id,
     name,

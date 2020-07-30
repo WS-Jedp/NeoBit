@@ -98,8 +98,13 @@ const ashteroids = () => {
       const cards = document.querySelectorAll('.card');
       const lastCard = cards[cards.length - 2];
       observer.observe(lastCard);
+      return lastCard;
     };
-    getData();
+    let lastCard;
+    getData().then(element => lastCard = element).catch(error => setError(error));
+    return () => {
+      observer.unobserve(lastCard)
+    }
   }, []);
   return (
     <div className="astheroids">
