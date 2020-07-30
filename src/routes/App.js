@@ -16,6 +16,7 @@ import Molecules from '../containers/Molecules';
 import Organisms from '../containers/Organisms';
 import AstheroidDetail from '../containers/AstheroidDetail';
 import Gallery from '../containers/Gallery';
+import NotFound from '../containers/NotFound';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <AppRoute path='/ds/atoms' component={Atoms} layout={LayoutDS} />
           <AppRoute path='/ds/molecules' component={Molecules} layout={LayoutDS} />
           <AppRoute path='/ds/organisms'  component={Organisms} layout={LayoutDS} />
+          <AppRoute component={NotFound} layout={LayoutWS} />
         </Switch>
       </Router>
     </>

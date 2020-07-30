@@ -5,14 +5,15 @@
 @import '../styles/layouts/LayoutWS.scss';
 @import '../styles/layouts/LayoutDS.scss';
 
+// Animations
+@import './animations/Animations.scss';
+
 // Containers
 @import './containers/SystemContent.scss';
 @import './containers/Astheroids.scss';
 @import './containers/AstheroidDetail.scss';
 @import './containers/Gallery.scss';
-
-// Animations
-@import './animations/Animations.scss';
+@import './containers/NotFound.scss';
 
 // Components
 
