@@ -60,8 +60,8 @@ All the data comes from [NEO API](https://documenter.getpostman.com/view/1218672
 
 The staff:
 
-- **[Abdiel Ortega][juan_abdiel_github]** _(Frontend Developer and Interface designer)_
-- **[Esteban Desossa][abdiel_github]** _(Frontend Developer and Interface designer)_
+- **[Abdiel Ortega][abdiel_github]** _(Frontend Developer and Interface designer)_
+- **[Esteban Desossa][esteban_github]** _(Frontend Developer and Interface designer)_
 - **[Miguel Adalberto][miguel_twitter]** _(Illustrative Designer)_
 - **[Joshua Pedraza][joshua_github]** _(Coach at Platzi Master)_
 
@@ -96,7 +96,7 @@ The design system can be found in [Notion](https://www.notion.so/NeoBit-04cdb34e
 [juan_github]: https://github.com/Gaybre
 [felipe_github]: https://github.com/FelipeMerchan
 [juan_felipe_github]: https://github.com/T-rexpace
-[juan_abdiel_github]: https://github.com/WS-Jedp
+[esteban_github]: https://github.com/WS-Jedp
 [luis_osvaldo_github]: https://github.com/ArzateCompany/asteroids
 [luis_github]: https://github.com/cabezas29
 [osvaldo_github]: https://github.com/ArzateCompany
