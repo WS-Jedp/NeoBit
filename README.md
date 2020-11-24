@@ -5,13 +5,13 @@
     src="https://res.cloudinary.com/abdiel8real/image/upload/v1596045225/neobit/logoBlack_2x_kwp4o7.png">
 </div>
 
-NeoBit is a project that offers a new way to see story world, through science and astheroids study.
+NeoBit is a project that offers a new way to see story world, through science and asteroids study.
 
 ## 📢 Requirements
 - Node JS 12.16.1 _(Recommended)_
 - NPM 6.13.4 _(Recommended)_
 
-## 🛠 Instalation
+## 🛠 Installation
 1. Clone this project.
 ```bash
   git clone git@github.com:WS-Jedp/NeoBit.git
@@ -38,7 +38,7 @@ NeoBit is a project that offers a new way to see story world, through science an
 - [Webpack](https://webpack.js.org/) _(Development)_
 
 ## 🚀 Deploy
-1. Una vez instsaladas las dependencias, puedes hacer el build
+1. Once the dependencies are installed, you can do the build
 ```bash
   npm build
 ```
@@ -60,8 +60,8 @@ All the data comes from [NEO API](https://documenter.getpostman.com/view/1218672
 
 The staff:
 
-- **[Abdiel Ortega][juan_abdiel_github]** _(Frontend Developer and Interface designer)_
-- **[Esteban Desossa][abdiel_github]** _(Frontend Developer and Interface designer)_
+- **[Abdiel Ortega][abdiel_github]** _(Frontend Developer and Interface designer)_
+- **[Esteban Desossa][juan_github]** _(Frontend Developer and Interface designer)_
 - **[Miguel Adalberto][miguel_twitter]** _(Illustrative Designer)_
 - **[Joshua Pedraza][joshua_github]** _(Coach at Platzi Master)_
 
@@ -100,7 +100,7 @@ The design system can be found in [Notion](https://www.notion.so/NeoBit-04cdb34e
 [luis_osvaldo_github]: https://github.com/ArzateCompany/asteroids
 [luis_github]: https://github.com/cabezas29
 [osvaldo_github]: https://github.com/ArzateCompany
-[abdiel_github]: https://github.com/abdieljortega
+[abdiel_github]: https://github.com/abdielDev
 [joshua_github]: https://github.com/joshuapcruz
-[juan_abdiel_project]: https://github.com/WS-Jedp/Neobit
+[juan_project]: https://github.com/WS-Jedp/Neobit
 [miguel_twitter]: https://twitter.com/OgaKuga
